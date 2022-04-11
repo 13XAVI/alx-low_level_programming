@@ -8,9 +8,10 @@
  * return : always return zero (correct)
 */
 
-int main(void)
+int main(void) /*tis function will return nothind*/
 {
-int n ;
+int n;
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
