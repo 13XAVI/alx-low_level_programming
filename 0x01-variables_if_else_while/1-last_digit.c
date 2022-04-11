@@ -16,15 +16,15 @@ srand(time(0));
 n = rand()-RAND_MAX / 2;
 if(n < 6)
 {
-printf("%d is less than 6 and not 0", n);
+printf("%lu is less than 6 and not 0", n);
 }
 else if(n > 6)
 {
-printf("%d is greater than 6 and not 0", n);
+printf("%lu is greater than 6 and not 0", n);
 }
 else 
 {
-printf("%d is 0 and is 0");
+printf("%lu is 0 and is 0");
 }
 return(0);
 }
