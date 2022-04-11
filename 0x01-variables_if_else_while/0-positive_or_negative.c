@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Entry point of my fuction
+ * main - Entry point
  *
  * Return : always 0 (correct/right)
 */
