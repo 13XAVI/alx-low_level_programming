@@ -9,7 +9,7 @@ int main(void)
 {
 int n ;
 srand(time(0));
-n =  srand() - RAND_MAX /2;
+n = srand() - RAND_MAX /2;
 if (n ==0)
 {
 printf("%i is zero\n",n);
