@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- *main starting function
+ * main - starting function
  *
- *return : always return zero (correct)
+ * return : always return zero (correct)
 */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 int n ;
 
 srand(time(0));
-n = rand() - RAND_MAX /2;
+n = rand() - RAND_MAX / 2;
 
 if (n == 0)
 {
