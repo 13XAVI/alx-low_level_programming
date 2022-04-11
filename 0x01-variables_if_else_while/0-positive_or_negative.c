@@ -8,7 +8,7 @@
  * return : always return zero (correct)
 */
 
-int main void (void) /*this function will return nothing*/
+int main(void)
 {
 int n;
 
