@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - Entry point of my fuction 	
+ * main - Entry point of my fuction
  *
- * Return : always return 0 (correct)
+ * Return : always 0 (correct/right)
 */
 
 int main(void)
