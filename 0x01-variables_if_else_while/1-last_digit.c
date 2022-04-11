@@ -3,9 +3,8 @@
 #include <time.h>
 
 /**
- *main - Entry point 
+ *main - Entry point
  *Return: always 0 (sucess)
- 
 */
 
 int main(void)
@@ -28,5 +27,6 @@ else
 printf("last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
 }
 
-return(0);
+
+return (0);
 }
