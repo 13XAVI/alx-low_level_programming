@@ -1,16 +1,20 @@
-#include <stdio.h> 
 #include <main.h>
 
 /**
- *_putchar - this function will print _putchar
- *
+ *main - the entry point
+ *description: print put char in a ne line
  *Return: Always 0 (sucess)
  */
 
-int _putchar()
+int main ()
 {
-putchar("_putchar");
-putchar('\n');
-
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
 return (0);
 }
