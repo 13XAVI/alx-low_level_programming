@@ -17,5 +17,5 @@ for (upper_case ='A'; upper_case <= 'Z'; upper_case++)
 {
 putchar(upper_case);
 }
-putchar (0);
+putchar (\n);
 }
