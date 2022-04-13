@@ -1,11 +1,13 @@
 #include "main.h"
+
 /**
- *main -Entry point
+ *Print_alphabet: lower case
  *description: print lower case alphabetes
  *Return: Always 0 (sucess)
  */
 void print_alphabet(void)
 {
+
 int alph;
 for (alph = 97; alph <= 122; alph++)
 {
