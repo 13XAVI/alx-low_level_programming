@@ -1,12 +1,10 @@
 #include <main.h>
-
 /**
  *main - Entry point
- *description: print put char in a ne line
- *Return: Always 0 (sucess)
+ *description: print _putchar
+ *return: alway 0 (success)
  */
-
-int main ()
+int main(void)
 {
 putchar('_');
 putchar('p');
@@ -16,6 +14,5 @@ putchar('c');
 putchar('h');
 putchar('a');
 putchar('r');
-putchar('\n');
 return (0);
 }
