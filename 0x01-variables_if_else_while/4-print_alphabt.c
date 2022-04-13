@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
+/**
  *main - Entry point
- *
+ *description: printing alphabetes
  *Return: Always 0 (success)
  */
 
