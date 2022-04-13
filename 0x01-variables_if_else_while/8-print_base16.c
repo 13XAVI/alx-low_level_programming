@@ -16,5 +16,7 @@ for (alph = 97; alph <= 102; alph++)
 putchar(alph);
 }
 putchar('\n');
+return(0);
 }
+
 
