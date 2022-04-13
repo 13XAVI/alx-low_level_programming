@@ -10,9 +10,8 @@ int main(void)
 int digit;
 int n = 0;
 for (digit = 48; digit <= 57; digit++)
-{
 putchar(digit);
-}
+
 if (digit ==57)
 {
 n = 36;
