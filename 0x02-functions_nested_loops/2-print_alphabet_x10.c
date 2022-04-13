@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *main - Entry point
+ *print_alphabet_x10 - Entry point
  *description: print 10x alphabet
  *Retur: always 0
  */
@@ -13,8 +13,9 @@ for (i = 97; i <= 122; i++)
 j = i;
 
 for (j = 0; j <= 10; j++)
-putchar(i);
-putchar(j);
+
+_putchar(j);
 }
+_putchar(i);
 return (0);
 }
