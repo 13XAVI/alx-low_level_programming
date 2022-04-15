@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *main - main
+ *main -entry main
  *description: debugging
  *Return: 0
  */
