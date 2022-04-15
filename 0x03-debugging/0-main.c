@@ -3,7 +3,7 @@
 /**
  *main -entry main
  *description: debugging
- *Return: 0
+ *Return: always 0 (sucees)
  */
 
 int main(void)
