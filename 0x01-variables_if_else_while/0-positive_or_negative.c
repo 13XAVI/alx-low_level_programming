@@ -4,7 +4,7 @@
 
 /**
  *main - Entry point
- * 
+ *
  *Return: Always 0
 */
 
@@ -28,5 +28,5 @@ else
 printf("%i is negative\n", n);
 }
 return (0);
-}
 
+}
