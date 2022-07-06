@@ -9,10 +9,12 @@
 int main(void)
 {
 char n;
-for (n = 97; n =< 123; i++) 
+for (n = 'a'; n <= 'z'; n++) 
 {
-putchar(char);
+putchar(n);
 }
+
+putchar (\n);
 
 return (0);
 }
