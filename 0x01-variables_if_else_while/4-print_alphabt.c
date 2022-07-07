@@ -11,11 +11,11 @@ for (lc = 'a'; lc <= 'z'; lc++)
 {
 if (lc == 'e')
 {
-continue ;
+continue;
 }
 else if (lc == 'q')
 {
-continue ;
+continue;
 }
 putchar(lc);
 }
