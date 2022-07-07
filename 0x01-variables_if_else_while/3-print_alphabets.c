@@ -8,11 +8,11 @@ int main(void)
 {
 char lc;
 char up
-for (up= 'A'; n <= 'Z'; up++)
+for (up= 'A'; up <= 'Z'; up++)
 {
 putchar(up);
 }
-for (n = 'a' ; n <= 'z'; lc++)
+for (lc = 'a' ; lc <= 'z'; lc++)
 {
 putchar(lc);
 }
