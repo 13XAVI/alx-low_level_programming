@@ -8,9 +8,9 @@ int main(void)
 {
 int i;
 int j;
-for (i = 0; i < 100; i++)
+for (i = 48; i <= 57 ; i++)
 {
-for (j =0; j < 10; j++)
+for (j = 48; j <= 57; j++)
 {
 putchar(j);
 }
