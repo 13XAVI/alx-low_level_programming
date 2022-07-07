@@ -6,16 +6,19 @@
 */
 int main(void)
 {
-int n;
-for (n = 97; n <= 122; n++)
+char lc;
+char up
+for (up= 'A'; n <= 'Z'; up++)
 {
-putchar(n);
+putchar(up);
 }
-for (n = 65 ; n <= 97; n++)
+for (n = 'a' ; n <= 'z'; lc++)
 {
-putchar(n);
+putchar(lc);
 }
 putchar('\n');
+
 return (0);
+
 }
 
