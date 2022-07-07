@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Retun: 0 always 
+ * Retun: Always 0 
 */
 int main(void)
 {
@@ -11,7 +11,7 @@ for (n = 97; n <= 122; n++)
 {
 putchar(n);
 }
-n = 0;
+n = 65;
 while (n < 91)
 {n--;
 putchar(n);
