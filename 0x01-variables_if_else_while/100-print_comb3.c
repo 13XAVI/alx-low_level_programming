@@ -8,10 +8,10 @@
 int main(void)
 {
 int j;
-int i;
+
 while (j <= 48)
 {
-for (j = 48; j <= 57; j++)
+for (i = 48; i <= 57; i++)
 {
 putchar(j);
 if (j % i == 0)
