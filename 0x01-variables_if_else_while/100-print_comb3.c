@@ -23,7 +23,7 @@ if (j % i == 0)
 continue;
 }
 j++;
-else if (j == 57)
+if (j == 57)
 {
 break;
 }
