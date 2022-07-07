@@ -8,7 +8,7 @@
 int main(void)
 {
 int j;
-
+int i;
 while (j <= 48)
 {
 for (i = 48; i <= 57; i++)
