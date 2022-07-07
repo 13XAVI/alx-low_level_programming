@@ -14,14 +14,15 @@ for (j =0; j < 10; j++)
 {
 putchar(j);
 }
-if (i = j)
+if (i == j)
 {
 continue;
 }
 putchar(i);
 }
-}
+
 putchar('\n');
+
 return (0);
 }
 
