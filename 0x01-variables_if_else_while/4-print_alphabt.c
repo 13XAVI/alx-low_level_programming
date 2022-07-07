@@ -4,16 +4,21 @@
  *
  * Return: Always 0
 */
-int main (void)
+int main(void)
 {
 char lc;
-do
-{
 for (lc = 'a'; lc <= 'z'; lc++)
 {
+if (lc == 'e')
+{
+continue ;
+}
+else if (lc == 'q')
+{
+continue ;
+}
 putchar(lc);
 }
-}while (lc != 'q' && lc != 'e');
 putchar('\n');
 
 return (0);
