@@ -1,30 +1,31 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main -entry point
+ * main - Entry
  *
- * Return: Always 0
-*/
+ * Return: always 0
+ */
+
 int main(void)
 {
-int i;
 int j;
-for (i = 48; i <= 57 ; i++)
-{
-putchar(i);
-}
 
 for (j = 48; j <= 57; j++)
 {
 putchar(j);
-
-if (i == j)
+for (i =48; i <= 57; i++)
+{
+putchar(i);
+}
+if (j % i == 0)
 {
 continue;
 }
+putchar(',');
+putchar(' ');
 }
 putchar('\n');
-
 return (0);
 }
+
 
 
