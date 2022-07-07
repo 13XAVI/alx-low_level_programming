@@ -16,13 +16,12 @@ putchar(i);
 for (j = 48; j <= 57; j++)
 {
 putchar(j);
-}
+
 if (i == j)
 {
 continue;
 }
-
-
+}
 putchar('\n');
 
 return (0);
