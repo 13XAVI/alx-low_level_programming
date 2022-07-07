@@ -7,8 +7,8 @@
 int main(void)
 {
 char lc;
-char up
-for (up= 'A'; up <= 'Z'; up++)
+char up;
+for (up = 'A'; up <= 'Z'; up++)
 {
 putchar(up);
 }
