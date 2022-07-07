@@ -6,14 +6,16 @@
 */
 int main (void)
 {
-int char lc;
+char lc;
 do
 {
 for (lc = 'a'; lc <= 'z'; lc++)
 {
 putchar(lc);
 }
-}while (lc != 'q' && lc != 'e')
+}while (lc != 'q' && lc != 'e');
 putchar('\n');
+
+return (0);
 }
 
