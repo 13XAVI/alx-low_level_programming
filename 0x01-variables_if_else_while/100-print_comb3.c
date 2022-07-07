@@ -9,6 +9,8 @@ int main(void)
 {
 int j;
 int i;
+if (j == 48)
+{
 for (j = 48; j <= 57; j++)
 {
 putchar(j);
@@ -20,8 +22,14 @@ if (j % i == 0)
 {
 continue;
 }
+j++;
+else if (j == 57)
+{
+break;
+}
 putchar(',');
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
