@@ -19,8 +19,8 @@ break;
 }
 putchar(',');
 putchar(' ');
-putchar('\n');
 }
+putchar(' ');
 return (0);
 }
 
