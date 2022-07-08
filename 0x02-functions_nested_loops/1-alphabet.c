@@ -6,12 +6,10 @@
  */
 void print_alphabet(void)
 {
-char c;
-for (c = 97; c <= 122; c++)
+char i ;
+for (i = 97; i <= 122; i++)
 {
-putchar(c);
+_putchar(i);
 }
-putchar('\n');
-
-return (0);
+_putchar('\n');
 }
