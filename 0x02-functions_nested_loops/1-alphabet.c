@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet(void) > print the lowest alphabets
+ * print_alphabet -> print the lowest alphabets
  *
  * Return: always 0
  */
