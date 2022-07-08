@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main -Entry 
- * Rturn: always 0
+ * main -Entry
+ * Return: always 0
  */
 int main(void)
 {
