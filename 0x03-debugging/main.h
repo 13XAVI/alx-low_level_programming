@@ -1,4 +1,4 @@
-ifndef[D[D[D[D[D[D[D[D[D[D[D[D#[C[C[C[C[D[D[D[D[D[Cifndef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
 
 #include <stdio.h>
