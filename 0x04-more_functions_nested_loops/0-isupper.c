@@ -4,7 +4,7 @@
  * @c: an integer argument
  * Return: sucess
  */
-int _isdigit(int c)
+int _isupper(int c)
 {
 return (c >= 'A' && c <= 'Z');
 }
