@@ -1,26 +1,23 @@
 #include "main.h"
 
 /**
- * rev_string - reverse a string
- * @s:string
+ * puts2 - print every other character of a string
+ * @str:string
  * Return:void
  */
-void rev_string(char *s)
+void puts2(char *str)
 {
-int i, j;
-char a[500];
+int i, x;
 i = 0;
-j = 0;
-while (*(s + i))
+x= 0;
+while (str[i++]) 
 {
-*(a + i) = *(s + i);
-i++;
+x++;
 }
 i = i - 1;
-while (i >= 0)
+while (i = 0; i < x; i+=2)
 {
-*(s + i) = *(a + j);
-j++;
-i--;
+_putchar(*(str * i));
 }
+_putchar('\n');
 }
