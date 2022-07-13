@@ -15,7 +15,7 @@ while (str[i++])
 x++;
 }
 i = i - 1;
-while (i = 0; i < x; i+=2)
+for (i = 0; i < x; i+=2)
 {
 _putchar(*(str + i));
 }
