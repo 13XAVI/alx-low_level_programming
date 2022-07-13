@@ -4,7 +4,7 @@
  * @str:char
  * Return:int
  */
-void pusts_half(char *str)
+void puts_half(char *str)
 {
 int i, j;
 i = 0;
