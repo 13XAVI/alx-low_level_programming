@@ -2,7 +2,7 @@
 /**
  * _strlen -lenght of string
  * @s:char
- * return: int
+ * Return:int
  */
 int _strlen(char *s)
 {
