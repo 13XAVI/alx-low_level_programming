@@ -2,7 +2,7 @@
 /**
  * _strcpy - copies scr to dest.
  * @dest:char
- * @scr:char
+ * @src:char
  * Return:char
  */
 char *_strcpy(char *dest, char *src)
