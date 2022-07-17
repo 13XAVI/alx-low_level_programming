@@ -3,6 +3,7 @@
  * reverse_array -function that reverse content of array
  * @a: array
  * @n: number of element
+ * Return: 0
  */
 void reverse_array(int *a, int n)
 {
@@ -13,4 +14,5 @@ tmp = a[n - 1 - index];
 a[n - 1 - index] = a[index];
 a[index] = tmp;
 }
+return (0);
 }
