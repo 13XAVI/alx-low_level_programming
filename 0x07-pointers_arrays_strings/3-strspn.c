@@ -3,6 +3,7 @@
  * _strspn - print the consecutive characters
  * @s:  string
  * @accept:searching string
+ *
  * Return: new string
  */
 unsigned int _strspn(char *s, char *accept)
@@ -20,5 +21,3 @@ if (*(accept +i) == '\0')
 }
 return (j);
 }
-
-
