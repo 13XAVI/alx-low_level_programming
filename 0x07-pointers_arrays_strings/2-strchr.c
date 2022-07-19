@@ -11,7 +11,7 @@ while (*s != '\0') /*declaring while*/
 {
 if (*s == c) /* if s == c*/
 {
-return (s; /*return s*/
+return (s); /*return s*/
 }
 ++s;
 }
