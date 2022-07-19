@@ -13,11 +13,11 @@ if (*s == c) /* if s == c*/
 {
 return (S); /*return s*/
 }
-i++;
+++s;
 }
 if (*s == c)
 {
-return (dest);
+return (s);
 }
 return (0);/*value null*/
 }
