@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * @s: sourece string 
+ * _memset - file memory with a constant byte.
+ * @s: sourece string
  * @b:the constant byte for filling
  * @n: lenght of buffer
  * Return: new string.
