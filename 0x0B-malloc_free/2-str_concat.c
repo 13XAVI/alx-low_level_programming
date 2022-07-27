@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * _str_concat - concatenates 2 strings
+ * str_concat - concatenates 2 strings
  * a Null string is treated as empty string.
  *
  * @s1: pointer to string.
@@ -30,7 +30,7 @@ len2 = 0;
 while (s2[len2] != '\0')
 len2++;
 size = len1 + len2;
-nstr = malloc((sizeof(char) * size) + 1);
+nstr = malloc((sizeof(char) * size) +1);
 /*check malloc was successful*/
 if (nstr == NULL)
 {
