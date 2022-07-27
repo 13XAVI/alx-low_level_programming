@@ -10,7 +10,7 @@
  * Return: pointer to newlly allocated memory which has a nul byte
  * NULL on failure
  */
-char *_str_concat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
         char *nstr;
         unsigned int len1, len2, size, i, j;
