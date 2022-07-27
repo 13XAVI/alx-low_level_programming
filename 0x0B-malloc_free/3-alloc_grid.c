@@ -20,12 +20,12 @@ return (NULL);
 else
 {
 p = (int **) malloc(height * sizeof(int *));
-if(!p)
+if (!p)
 {
-free (p);
+free(p);
 return (NULL);
 }
-for(i = 0; i < height; i++)
+for (i = 0; i < height; i++)
 {
 p[i] = (int *) malloc(width * sizeof(int));
 if (!p[i])
