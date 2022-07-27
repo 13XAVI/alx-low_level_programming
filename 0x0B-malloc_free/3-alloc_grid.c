@@ -20,7 +20,7 @@ return (NULL);
 else
 {
 p = (int **) malloc(height * sizeof(int *));
-if(!P)
+if(!p)
 {
 free (p);
 return (NULL);
