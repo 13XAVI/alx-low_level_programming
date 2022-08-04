@@ -1,8 +1,3 @@
-/*
- * File: 1-array_iterator.c
- * Auth: shegaw
- */
-
 #include "function_pointers.h"
 
 /**

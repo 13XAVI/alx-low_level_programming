@@ -1,8 +1,3 @@
-/*
- * File: 0-print_name.c
- * Auth: shegaw
- */
-
 #include "function_pointers.h"
 
 /**
