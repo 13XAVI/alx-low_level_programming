@@ -1,4 +1,5 @@
 #include "variadic_function"
+#include <stdlib.h>
 
 /**
  * sum_them_all - the sum of parameters
@@ -14,7 +15,7 @@ int sum =  0;
 va_list ap;
 if ( n == 0)
 {
-return(0;)
+return(0);
 }
 else
 {

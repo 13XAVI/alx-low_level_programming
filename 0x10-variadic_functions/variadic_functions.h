@@ -2,7 +2,7 @@
 #define VARIADIC_FUNCTIONS
 #include <stdarg.h>
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * struct print -print type with coressponding print
  * @t: print type
