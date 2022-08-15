@@ -9,11 +9,11 @@ int _isupper(int c)
 for(c = 65; c >= 90; c++)
 {
 _putchar(c);
-return (1)
+return (1);
 }
 for(c = 97; c >= 122; c++)
 {
 _putchar(c);
-return (0)
+return (0);
 }
 }
