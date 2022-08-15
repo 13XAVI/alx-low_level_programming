@@ -6,5 +6,14 @@
  */
 int _isupper(int c)
 {
-return (c >= 'A' && c <= 'Z');
+for(c = 65; c >= 90; c++)
+{
+_putchar(c);
+return (1)
+}
+for(c = 97; c >= 122; c++)
+{
+_putchar(c);
+return (0)
+}
 }
